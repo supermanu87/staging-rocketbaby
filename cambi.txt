@@ -1,0 +1,416 @@
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005193373		1	#28814A-RB3A011092
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005193373		1	#28814A-RB3A011099
+v_QtaImpegnata	v_SIMFDB_Richiesta	v_QtaPresente	v_SIMFDB_PRESENTE	v_OrderSKU_ITM
+0	0	0	0	#28803A-RB3A008327
+v_QuantitaRichiesta	v_Soldout_Report	v_OrderSKU_ITM
+1	0	#28803A-RB3A008327
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005192697		1	#28642A-RB3A011293
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005192697		1	#28642A-RB3A016493
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005203512		1	#28634A-RB3A011095
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005192987		1	#28601A-RB3A011293
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005193375		1	#28585A-RB3A007739
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005193375		1	#28585A-RB3A008325
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005183563		1	#28317A-RB20012R
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005183563		1	#28317A-RB3A018674
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005188090		1	#28305A-RB3A008323
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005188090		1	#28305A-RB3A008324
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005188090		1	#28305A-RB3A012457
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005182361		1	#28279A-RB20012S
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005182738		1	#28213A-RB3A011245
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005182625		1	#28036A-RB3A019633
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005182626		1	#27980A-RB3A019633
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005190073		1	#27970A-RB3A010144
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005193406		1	#27925A-RB3A008315
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005182624		1	#27866A-RB3A019633
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005171744		1	#27787A-RB3A013153
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005171744		1	#27787A-RB3A013232
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005171744		1	#27787A-RB3A016475
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005171744		1	#27787A-RB3A017459
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005171744		1	#27787A-RB3A017489
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005171744		1	#27787A-RB3A019458
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005171744		1	#27787A-RB3A019522
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005171744		1	#27787A-RB3A019530
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005193304	201705005161535	1	#27777A-RB3A019522
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005177285		1	#27698B-RB3A018234
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005153968		1	#27586A-RB3A007734
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005153968		1	#27586A-RB3A007736
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005153968		1	#27586A-RB3A008322
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005153968		1	#27586A-RB3A008328
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005193159		1	#27571A-RB3A018635
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005182853		1	#27507B-RB3A018663
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005162316		1	#27491A-RB3A010165
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005162316		1	#27491A-RB3A019465
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005159427		1	#27441A-RB3A010935
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005159427		1	#27441A-RB3A010938
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005155952		1	#27435A-RB3A009904
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005163483		1	#27399A-RB3A019494
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005153721		1	#27383A-RB3A019457
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005152409	201705005144423	1	#27366A-RB3A011012
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005159267		1	#27357A-RB3A017355
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005182258		1	#27342A-RB3A017747
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005163691		1	#27325A-RB3A010418
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005163691		1	#27325A-RB3A013197
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005163691		1	#27325A-RB3A013237
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005158455		1	#27297A-RB3A019452
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005177273		1	#27261B-RB3A014436
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005159795		1	#27247A-RB3A018494
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005163667		1	#27191A-RB3A010468
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005163674		1	#27051A-RB3A011311
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005146965		1	#27039B-RB3A011311
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005163453		1	#27034A-RB3A011307
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005163453		1	#27034A-RB3A018663
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005166229		1	#27015A-RB3A019061
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005166229		1	#27015A-RB3A019107
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005155381		1	#27009A-RB3A011098
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005155381		1	#27009A-RB3A011304
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005146994		1	#26999B-RB3A011309
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005143806		1	#26997A-RB3A011311
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005145341		1	#26995A-RB3A011310
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005145537		1	#26978A-RB3A018625
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005152894		1	#26873A-RB3A018978
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005165801		1	#26867A-RB3A019084
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005177348		1	#26798B-RB3A019737
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005197862		1	#26795A-RB3A019110
+v_QuantitaRichiesta	v_Soldout_Report	v_OrderSKU_ITM
+1	0	#26795A-RB3A019110
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005177261		1	#26790B-RB3A010999
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005152949		1	#26789A-RB3A008318
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005158509		1	#26784A-RB3A018835
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005145545		1	#26740A-RB3A018835
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005166437		1	#26538A-RB3A014489
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005141256	201705005126410	1	#26524A-RB3A018393
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005128745		1	#26494A-RB3A012562
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005145567		1	#26488A-RB3A014510
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005145567		1	#26488A-RB3A015018
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005134141		1	#26457A-RB2000K2-Ne-9_12M-Co
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005134141		1	#26457A-RB3A013657
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005134141		2	#26457A-RB3A013709
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005134141		1	#26457A-RB3A017493
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005134141		1	#26457A-RB3A018611
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005134141		2	#26457A-RB3A018645
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005134141		1	#26457A-RB3A018655
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005141495		1	#26450A-RB3A009239
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005151001	201705005130290	1	#26410A-RB3A008985
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005141351		1	#26390A-RB3A012562
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005150987	201705005130336	1	#26381A-RB3A008982
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005147133		1	#26357C-RB3A013431
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005128607		1	#26356A-RB3A018637
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005128607		1	#26356A-RB3A018640
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005150632		1	#26240A-RB3A009573
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005159144		1	#26164B-RB3A018624
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005130584		1	#26164A-RB3A018663
+v_QuantitaRichiestaCancellati	v_Canceled_Report	v_OrderSKU_ITM
+1	0	#26124A-RB3A007847
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005134232		1	#26118A-RB3A010085
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005134232		1	#26118A-RB3A015257
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005121231		1	#26109A-RB3A018722
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005127073		1	#26080A-RB3A018611
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005125492		1	#26079A-RB3A012484
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005125492		1	#26079A-RB3A018623
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005169002		1	#26016A-RB3A018664
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005133499		1	#26008A-RB3A013304
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005163769		1	#26004A-RB3A012781
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005118824		1	#25966A-RB3A012483
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005116975		1	#25928A-RB2000DC
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005145624		1	#25925A-RB3A014457
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005118756		1	#25917A-RB3A012483
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005110972		1	#25898A-RB3A009901
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005110972		1	#25898A-RB3A009902
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005119827		1	#25874A-RB3A018393
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005123315		1	#25849A-RB20004C
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005119851		1	#25826A-RB3A018233
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005136983	201705005101789	1	#25724A-RB3A015738
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005123045		1	#25704A-RB3A017731
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005123045		1	#25704A-RB3A018200
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005114405		1	#25626-RB3A017755
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005117003		1	#25621A-RB3A018159
+v_QuantitaRichiesta	v_Soldout_Report	v_OrderSKU_ITM
+1	0	#25621A-RB3A018184
+v_QuantitaRichiestaCancellati	v_Canceled_Report	v_OrderSKU_ITM
+1	0	#25607-RB3A018185
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005114481		1	#25557A-RB3A010434
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005127946		1	#25550A-RB3A009545
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005106833		1	#25530A-RB3A010297
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005106833		1	#25530A-RB3A010485
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005106833		1	#25530A-RB3A010524
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005106833		2	#25530A-RB3A018384
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005111354		1	#25499A-RB3A015783
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005111354		1	#25499A-RB3A015797
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005111354		1	#25499A-RB3A016129
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005111354		1	#25499A-RB3A016204
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005111354		1	#25499A-RB3A016363
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005111511		1	#25492A-RB3A010027
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005106838		1	#25488A-RB3A010548
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005103462		1	#25483A-RB3A017903
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005103462		1	#25483A-RB3A017940
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005107113		1	#25481A-RB3A017922
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005126097	0	1	#25470A-RB3A018007
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005117006		1	#25435A-RB3A017929
+v_QuantitaRichiestaCancellati	v_Canceled_Report	v_OrderSKU_ITM
+1	0	#25401-RB3A017755
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005108651	201705005088626	1	#25400A-RB20012X
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005114414		1	#25377-RB3A017755
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005110920		1	#25371A-RB3A011907
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005110920		1	#25371A-RB3A017430
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005114411		1	#25360A-RB3A017755
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005114408		1	#25338A-RB3A017755
+v_QuantitaRichiesta	v_Soldout_Report	v_OrderSKU_ITM
+1	0	#25323B-RB3A008328
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005114407		1	#25302-RB3A017755
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005093863		1	#25224A-RB3A012841
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005097521		1	#25210A-RB3A010109
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005097521		1	#25210A-RB3A012557
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005097521		1	#25210A-RB2000GS--LS-Co
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005113012	201705005079564	1	#25199A-RB20012T
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005134552	201705005099160	1	#25198B-RB3A012508
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005103631		1	#25178A-RB2000K7-Li-M2-Co
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005114410		1	#25177-RB3A017755
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005097579		1	#25132A-RB3A018007
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005088695	201705005079952	1	#25122A-RB3A015741
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005116993	201705005075933	1	#25050A-RB3A012497
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005103561		1	#25029A-RB3A014798
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005108591		1	#24957A-RB3A008985
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005088772		2	#24951A-RB3A015252
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005108593		1	#24907A-RB3A008985
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005108565		1	#24884A-RB3A009252
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005073442		1	#24883A-RB3A012834
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005107107		1	#24875A-RB3A016519
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005097514	201705005088590	1	#24837A-RB20012Q
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005088664	201705005061323	1	#24747A-RB20012T
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005073409	201705005059531	1	#24711A-RB3A016475
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005103634	201705005077254	1	#24586A-RB20006P
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005088665	201705005058944	1	#24577A-RB20012T
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005075840		1	#24304A-RB3A014793
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005064266		1	#24258A-RB3A017402
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005073438	201705005064440	1	#24239A-RB3A015741
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005103549		1	#24143A-RB3A012331
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005061354	201705005035183	1	#24119A-RB3A008939
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005064083		1	#24050A-RB3A014452
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005061347		1	#24047A-RB3A008388
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005061347		1	#24047A-RB3A008381
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005070738		1	#24025A-RB3A010984
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005070738		1	#24025A-RB3A017756
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005117024		1	#24015A-RB3A014769
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005066480		1	#23900A-RB3A009662
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005052911	201705005028317	1	#23879A-RB3A015738
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005144100		1	#23873A-RB3A016513
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005052811		1	#23846A-RB3A016470
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005051232		1	#23729A-RB2000Z9
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005051232		1	#23729A-RB3A010889
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005051232		1	#23729A-RB3A012600
+v_QuantitaRichiestaCancellati	v_Canceled_Report	v_OrderSKU_ITM
+1	0	#23575A-RB3A016143
+v_QuantitaRichiestaCancellati	v_Canceled_Report	v_OrderSKU_ITM
+1	0	#23575A-RB3A016185
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005039173		1	#23544A-RB3A017760
+v_QuantitaRichiestaCancellati	v_Canceled_Report	v_OrderSKU_ITM
+1	0	#23532B-RB3A013437
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005029725		1	#23461A-RB3A017505
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005061079		1	#23404A-RB3A009918
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005082688		1	#23404B-RB3A011359
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005088495		1	#23163B-RB3A014437
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005022192		1	#23075A-RB3A009632
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005042270		1	#23070A-RB3A007885
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005042270		1	#23070A-RB3A015073
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005039225		1	#23067A-RB3A013431
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005016619		1	#23053A-RB3A014985
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005119165	201705005000619	1	#23034B-RB3A015741
+v_TrackingNumero	v_TrackCode	v_SpeArtQta	v_OrderSKU_ITM
+201705005016625		1	#22939A-RB3A014985
+x
+206
