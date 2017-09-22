@@ -200,10 +200,17 @@ foreach($importFiles as $i => $file) {
 			continue;
 		}
 		
+		
 		//Cancellare e fare truncate della tabella stk
-		if ($db->query("TRUNCATE TABLE stk")){
-			$log->write('SUCCESS: TRUNCATE TABLE stk');
-			}
+		if ($db->query("TRUNCATE TABLE stk_archive;")){
+				$log->write('SUCCESS: TRUNCATE TABLE stk archive');
+				if ($db->query("insert into stk_archive (select * from stk);")){
+					$log->write('SUCCESS: moving data from stk to stk_archive');
+					if ($db->query("TRUNCATE TABLE stk")){
+						$log->write('SUCCESS: TRUNCATE TABLE stk');
+					}
+				}
+		}
 		$stk_key=$fu->getLastStk($importFilesStk);
 	// Mario 20170806 OK
 		$importFilesStk->seek($stk_key);
