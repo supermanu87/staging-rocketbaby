@@ -117,37 +117,19 @@ $importFilesSimfdb = $files->getSimfdb();
 $importFilesDBPO = $files->getDBPO();
 $importFilesPro = $files->getPro();
 $importFilesBrt = $files->getBrt();
+$importFilesStk = $files->getStk();
+
 
 $fu= new File_Util();
 $found_simfdb=0;
 $found_dbpo=0;
 $found_pro=0;
 $found_brt=0;
+//GDS 20170922
+$found_stk=0;
 
 foreach($importFiles as $i => $file) {
 	
-/*	if (strpos(strtolower($file->getFilename()), 'brt') !== false) {
-		if($found_brt){
-			continue;
-		}
-		
-		//Cancellare e fare truncate della tabella brt
-		if ($db->query("truncate table brt")){
-			$log->write('SUCCESS: Truncate table brt');
-			}
-		
-		$brt_key=$fu->getLastBrt($importFilesBrt);
-		$importFilesBrt->seek($brt_key);
-		if($file){
-			$filetype = $importFilesBrt->getExtension();
-			$filePath = $importFilesBrt->getPathname();
-			$fileBasename = $importFilesBrt->getBasename('.' . $filetype);
-			$splitFileName = $files->splitFilename($fileBasename);
-			$fileName = $importFilesBrt->getFilename();
-			$found_brt=1;
-			$log->write("\n" . 'START FOR ' . $fileName);
-		}
-	}else */
 	
 	if (strpos(strtolower($file->getFilename()), 'simfdb') !== false) {
 		if($found_simfdb){
@@ -191,6 +173,7 @@ foreach($importFiles as $i => $file) {
 			$found_dbpo=1;
 			$log->write("\n" . 'START FOR ' . $fileName);
 		}
+		
 	}elseif (strpos(strtolower($file->getFilename()), 'pro') !== false) {
 		if($found_pro){
 			continue;
@@ -212,6 +195,29 @@ foreach($importFiles as $i => $file) {
 			$found_pro=1;
 			$log->write("\n" . 'START FOR ' . $fileName);
 		}
+	}elseif (strpos(strtolower($file->getFilename()), 'stk') !== false) {
+		if($found_stk){
+			continue;
+		}
+		
+		//Cancellare e fare truncate della tabella stk
+		if ($db->query("TRUNCATE TABLE stk")){
+			$log->write('SUCCESS: TRUNCATE TABLE stk');
+			}
+		$stk_key=$fu->getLastStk($importFilesStk);
+	// Mario 20170806 OK
+		$importFilesStk->seek($stk_key);
+		if($file){
+			$filetype = $importFilesStk->getExtension();
+			$filePath = $importFilesStk->getPathname();
+			$fileBasename = $importFilesStk->getBasename('.' . $filetype);
+			$splitFileName = $files->splitFilename($fileBasename);
+			$fileName = $importFilesStk->getFilename();
+			$found_stk=1;
+			$log->write("\n" . 'START FOR ' . $fileName);
+		}
+	/*	
+	*/
 	}
 	
 	else{
@@ -358,6 +364,37 @@ foreach($importFiles as $i => $file) {
 				break;
 		
 		
+		// GDS 20170914
+		case 'note':   
+			$add = false;   
+			$error = false;   
+			$warning= false;
+			//GDS 20170922 - Move all data from note to note archive and truncate note table
+			if($db->query("insert into note_archive (select * from note);"))
+				$log->write('SUCCESS - All data from note was moved into note_archive');
+				if($db->query("truncate table note;"))    
+					$log->write('SUCCESS - Note table was truncate;');
+			$ricPre=$query->row['count'];
+			$virtualRic=$ricPre+sizeof($rows);
+			foreach ($rows as $row_number => $row){    
+			
+				if($db->query("INSERT INTO " . DB_PREFIX . $table . " SET Ordine = '" . $db->escape($row['A']) . "', SKU = '" . $db->escape($row['B']) . "', operatore = '" . $db->escape($row['C']) . "', nota = '" . $row['D'] . "'")){     
+					$add = true;    
+				} else {
+						$error = true;     
+						$log->write(' ERROR: Unknown error during add information to "' . DB_PREFIX . $table  . '" table.');    
+						} 
+				}
+				$query = $db->query("SELECT count(*) as count from note");
+				$ricTotal=$query->row['count'];	
+				if($ricTotal != $virtualRic)
+					$warning=true;	
+				if($warning){
+					echo "<script>alert('Attenzione! Non sono stati importate tutte le righe del file NOTE. Controllare');</script>";
+				}	
+				
+				break;
+		
 		
 		case 'dbpo':   
 			$add = false;   
@@ -502,10 +539,16 @@ foreach($importFiles as $i => $file) {
 			$virtualRic=$ricPre+sizeof($rows);
 			foreach ($rows as $row_number => $row){
 				$NumeroOrdine = str_replace("#","",$row['A']);
-				//SPE.SpeNumeroOrdine > max(spe_archive.NumeroOrdine)
+				// GDS 20170918 - Se il campo TrackingNumero è vuoto settare 0
+				if ($row['D'] != ""){
+					$track = $row['D'];
+				}else{
+					$track=0;
+					
+				}
 				$query = $db->query("SELECT (CASE WHEN EXISTS(SELECT * FROM `" . DB_PREFIX . $table . "_archive` WHERE NumeroOrdine >= " . (int)$NumeroOrdine . ") THEN TRUE ELSE FALSE END) as exist");
-				if (empty($query->row['exist'])){
-					if($db->query("INSERT INTO " . DB_PREFIX . $table . " SET OrderSku = '" . $db->escape($row['A'] . "-" . $row['G']) . "', NumeroOrdine = '" . (int)$NumeroOrdine . "', ArtCodice = '" . $db->escape($row['G']) . "', TrackingNumero = '" . (int)$row['D'] . "', ArtQta = '" . (int)$row['I'] . "', File = '" . (int)$input_file_id . "' ON DUPLICATE KEY UPDATE ArtCodice = '" . $db->escape($row['G']) . "', TrackingNumero = '" . (int)$row['D'] . "', ArtQta = '" . (int)$row['I'] . "', File = '" . (int)$input_file_id . "' ")){
+				/*if (empty($query->row['exist'])){
+					if($db->query("INSERT INTO " . DB_PREFIX . $table . " SET OrderSku = '" . $db->escape($row['A'] . "-" . $row['G']) . "', NumeroOrdine = '" . (int)$NumeroOrdine . "', ArtCodice = '" . $db->escape($row['G']) . "', TrackingNumero = '" . $row['D'] . "', ArtQta = '" . (int)$row['I'] . "', File = '" . (int)$input_file_id . "' ON DUPLICATE KEY UPDATE ArtCodice = '" . $db->escape($row['G']) . "', TrackingNumero = '" . (int)$row['D'] . "', ArtQta = '" . (int)$row['I'] . "', File = '" . (int)$input_file_id . "' ")){
 						$add = true;
 					} else {
 						$log->write('ERROR: Unknown error during add information to "' . DB_PREFIX . $table  . '" table. '.mysql_errno());
@@ -513,7 +556,7 @@ foreach($importFiles as $i => $file) {
 				} else {
 					$error = true;
 					$log->write('ERROR: Import data from the row with number ' . $row_number . ' was discarded!');
-				}
+				}*/
 			}
 			$query = $db->query("SELECT count(*) as count from spe");
 			$ricTotal=$query->row['count'];	
@@ -760,12 +803,75 @@ foreach($importFiles as $i => $file) {
 				echo "<script>alert('Attenzione! Non sono stati importate tutte le righe del file soldout. Controllare');</script>";
 			}
 			break;
+			
+			case 'stk':
+			$add = false;
+			$error = false;
+			$warning= false;
+			$righevuote = 0;
+			
+			$query = $db->query("SELECT count(*) as count from stk");
+			$ricPre=$query->row['count'];
+			$virtualRic=$ricPre+sizeof($rows);
+			
+			foreach ($rows as $row_number => $row){
+				
+				if ($row['A'] != "" and $row['B'] != "" and $row['C'] != "" and $row['D'] != "" and $row['E'] != "" and $row['F'] != "" and $row['G'] != ""){
+					//echo $query."<br>";
+					
+					  
+					if($db->query("INSERT INTO " . DB_PREFIX . $table . 
+					" SET CodiceFornitore = '" . $db->escape($row['A']) . 
+					  "', RagSocFornitore = '" . $db->escape($row['B']) . 
+					  "', AnaArtCodice = '" . $db->escape($row['C']) . 
+					  "', AnaArtDescrizione = '" . $db->escape($row['D']) . 
+					  "', QuantitaTotale = '" . (int)$row['E'] . 
+					  "', QuantitaImpegnata = '" . (int)$row['F'] . 
+					  "', QuantitaDisponibile = '" . (int)$row['G'] . 
+					  "', File = '" . (int)$input_file_id . "'"))
+					{
+						$add = true;
+					} else {
+						$log->write('ERROR: Unknown error during add information to "' . DB_PREFIX . $table  . '" table.');
+					}
+				}else {
+					// conto le righe vuote per sottrarle al totale delle righe nel file excel (check su righe inserite su db = righe in xls)
+					if ($row['A'] == "" and $row['B'] == "" and $row['C'] == "" and $row['D'] == "" and $row['E'] == "" and $row['F'] == "" and $row['G'] == "")
+					{
+					// echo '1'.$row['A'].$row['B'].$row['C'].$row['D'].$row['E'].$row['F'].$row['G']."<br>";
+						$righevuote = $righevuote + 1;
+					}
+				}
+
+			}
+			$query = $db->query("SELECT count(*) as count from stk");
+			$ricTotal=$query->row['count'];
+			$virtualRic= $virtualRic - $righevuote;
+			//echo $righevuote.' - '.$ricTotal.' - '.$virtualRic;
+			if($ricTotal != $virtualRic)
+				$warning=true;
+			
+			//If we add any row to the temp import table then we move all data to archive table
+			if ($add){
+				if ($error){
+					$log->write('WARRING: Import data from "' . $fileName . '" was added to "' . DB_PREFIX . $table . '" with some errors!');
+				} else {
+					$log->write('SUCCESS: Import data from "' . $fileName . '" was successfully added to "' . DB_PREFIX . $table  . '" table.');
+				}
+			} else {
+				$log->write('WARRING: Nothing was added to "' . DB_PREFIX . $table  . '" table from "' . $fileName . '" file!');
+			}
+			if($warning){
+				echo "<script>alert('Attenzione! Non sono stati importate tutte le righe del file stk. Controllare');</script>";
+			}
+			break;
 	}
 
 	
 
 
 }
+
 //Move import files from IN directory to ARCHIVE directory
 $importFiles = $files->getIn();
 foreach($importFiles as $file) {

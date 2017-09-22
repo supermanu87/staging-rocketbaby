@@ -7,6 +7,7 @@ class Filesystem {
 	private $pro;
 	private $brt;
 	private $dbpo;
+	private $note;
 	private $InNames = array();
 	private $Archive;
 	private $ArchiveNames = array();
@@ -55,6 +56,12 @@ class Filesystem {
 		$this->stk = new DirectoryIterator(DIR_IN);
 		if($types){
 			$this->stk = new RegexIterator($this->stk, '/^STK_.*/');
+		}
+		
+		// GDS 20170914
+		$this->note = new DirectoryIterator(DIR_IN);
+		if($types){
+			$this->note = new RegexIterator($this->note, '/^NOTE_.*/');
 		}
 		
 		//Get an array of all files names
@@ -135,6 +142,14 @@ class Filesystem {
 		return $this->stk;
     }
 	
+	// GDS 20170914
+	// Get an array of all file named NOTE
+	public function getNote()
+    {
+		return $this->note;
+    }
+	
+	
 	// Get an array of all file named SIMFDB
 	public function getSimfdb()
     {
@@ -192,7 +207,7 @@ class Filesystem {
      */	
 	public function splitFilename($fileName)
     {
-		$result = explode($this->config->get('config_split_delimiter'), $fileName);
+    	$result = explode($this->config->get('config_split_delimiter'), $fileName);
 
 		return $result;
     }	
